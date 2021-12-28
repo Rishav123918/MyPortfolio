@@ -2,20 +2,20 @@ import React from "react";
 
 function Navbar() {
     return (
-        <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
+        <nav className="navbar navbar-expand-md navbar-light bg-light">
+            <div className="container-fluid">
+                <a className="navbar-brand" href="#">
                     <img
                         src="assets/images/sitelogo.png"
                         alt=""
                         width="40"
                         height="40"
-                        class="d-inline-block"
+                        className="d-inline-block"
                     />
                     Jimmy Zheng
                 </a>
                 <button
-                    class="navbar-toggler"
+                    className="navbar-toggler"
                     type="button"
                     data-bs-toggle="collapse"
                     data-bs-target="#navbarNavAltMarkup"
@@ -23,24 +23,24 @@ function Navbar() {
                     aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
-                    <span class="navbar-toggler-icon"></span>
+                    <span className="navbar-toggler-icon"></span>
                 </button>
                 <div
-                    class="collapse navbar-collapse text-center"
+                    className="collapse navbar-collapse text-center"
                     id="navbarNavAltMarkup"
                 >
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link" href="#about-me">
+                    <div className="navbar-nav ms-auto">
+                        <a className="nav-link" href="#about-me">
                             About Me
                         </a>
-                        <a class="nav-link" href="#work">
+                        <a className="nav-link" href="#work">
                             Projects
                         </a>
-                        <a class="nav-link" href="#contact-me">
+                        <a className="nav-link" href="#contact-me">
                             Contact Me
                         </a>
                         <a
-                            class="nav-link"
+                            className="nav-link"
                             href="assets/Jimmy-Zheng-Resume.pdf"
                             target="_blank"
                         >
