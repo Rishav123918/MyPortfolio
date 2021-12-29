@@ -5,9 +5,10 @@ function Project(props) {
         <div className="col">
             <div className="card">
                 <img
-                    src="https://i.postimg.cc/SQMSzcHD/music-trivia-logo.png"
+                    src={props.project.img}
                     className="card-img-top"
-                />{" "}
+                    alt="project"
+                />
                 <div className="card-body">
                     <h5 className="card-title">{props.project.name}</h5>
                 </div>
