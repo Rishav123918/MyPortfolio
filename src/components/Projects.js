@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "../projects";
 import Project from "./Project";
 
 function Projects(props) {
@@ -14,7 +13,8 @@ function Projects(props) {
                 className="
                         section-body
                         projects
-                        row row-cols-1 row-cols-lg-2
+                        row row-cols-1 
+                        row-cols-lg-2
                         g-4
                         ms-1
                         me-1
