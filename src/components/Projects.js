@@ -3,7 +3,7 @@ import Project from "./Project";
 
 function Projects(props) {
     return (
-        <section id="work">
+        <section id="work" className="scroll-snap">
             <header className="section-header">
                 <h2>Projects</h2>
             </header>

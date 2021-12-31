@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutMe() {
     return (
-        <section id="about-me">
+        <section id="about-me" className="scroll-snap">
             <header className="section-header">
                 <h2>About Me</h2>
             </header>

@@ -1,8 +1,9 @@
 import React from "react";
+import "../styles/Contact.css";
 
 function Contact() {
     return (
-        <section id="contact-me">
+        <section id="contact-me" className="scroll-snap">
             <header className="section-header">
                 <h2>Contact Me</h2>
             </header>

@@ -6,7 +6,7 @@ function Navbar() {
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img
-                        src="assets/images/sitelogo.png"
+                        src="../assets/sitelogo.png"
                         alt=""
                         width="40"
                         height="40"
