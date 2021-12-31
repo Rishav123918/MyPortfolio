@@ -1,5 +1,10 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
 section {
     min-height: 100vh;
+    padding-top: 80px;
 }
 
 .scroll {
