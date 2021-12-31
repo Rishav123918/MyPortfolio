@@ -1,7 +1,6 @@
 #landing {
-    background: radial-gradient(transparent, rgba(0, 0, 0, 0.33)),
-        url(/src/assets/images/minimalist-nature-wallpaper.jpg) no-repeat center
-            center fixed !important;
+    background: url(/src/assets/images/minimalist-nature-wallpaper.jpg)
+        no-repeat center center fixed !important;
     background-size: cover !important;
     height: 100vh !important;
 }
