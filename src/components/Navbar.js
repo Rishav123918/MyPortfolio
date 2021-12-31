@@ -4,9 +4,9 @@ import logo from "../assets/images/sitelogo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar fixed-top navbar-expand-md navbar-light">
+        <nav className="navbar fixed-top navbar-expand-md navbar-light bg-light">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="#landing">
                     <img
                         src={logo}
                         alt=""
@@ -35,7 +35,7 @@ function Navbar() {
                         <a className="nav-link" href="#about-me">
                             About Me
                         </a>
-                        <a className="nav-link" href="#work">
+                        <a className="nav-link" href="#projects">
                             Projects
                         </a>
                         <a className="nav-link" href="#contact-me">
