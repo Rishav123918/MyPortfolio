@@ -1,4 +1,6 @@
 import React from "react";
+import "../styles/Navbar.css";
+import logo from "../assets/images/sitelogo.png";
 
 function Navbar() {
     return (
@@ -6,13 +8,13 @@ function Navbar() {
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img
-                        src="../assets/sitelogo.png"
+                        src={logo}
                         alt=""
                         width="40"
                         height="40"
                         className="d-inline-block"
                     />
-                    Jimmy Zheng
+                    &nbsp;Jimmy Zheng
                 </a>
                 <button
                     className="navbar-toggler"
