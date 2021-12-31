@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Project.css";
+import Link from "./Link";
 
 function Project(props) {
     return (
@@ -15,22 +16,15 @@ function Project(props) {
                 </div>
                 <div className="card-footer">
                     {props.project.repoUrl !== "" ? (
-                        <a
-                            className="btn btn-outline-primary"
-                            href={props.project.repoUrl}
-                        >
-                            Repository
-                        </a>
+                        <Link name="Repository" url={props.project.repoUrl} />
                     ) : (
                         ""
                     )}
                     {props.project.deployUrl !== "" ? (
-                        <a
-                            className="btn btn-outline-primary"
-                            href={props.project.deployUrl}
-                        >
-                            Deployed Link
-                        </a>
+                        <Link
+                            name="Deployed Link"
+                            url={props.project.deployUrl}
+                        />
                     ) : (
                         ""
                     )}
