@@ -4,7 +4,7 @@ import logo from "../assets/images/sitelogo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-md navbar-light bg-light">
+        <nav className="navbar fixed-top navbar-expand-md navbar-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
                     <img
@@ -14,7 +14,7 @@ function Navbar() {
                         height="40"
                         className="d-inline-block"
                     />
-                    &nbsp;Jimmy Zheng
+                    &nbsp;&nbsp;Jimmy Zheng
                 </a>
                 <button
                     className="navbar-toggler"
