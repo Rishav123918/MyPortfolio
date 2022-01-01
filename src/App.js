@@ -6,7 +6,7 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
-import projects from "./projects";
+import projects from "./assets/projects.js";
 
 function App() {
     return (
