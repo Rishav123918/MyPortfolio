@@ -1,0 +1,6 @@
+#scroll-projects {
+    overflow: auto !important;
+    white-space: nowrap !important;
+    display: flex;
+    flex-direction: row !important;
+}
