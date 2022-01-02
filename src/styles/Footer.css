@@ -1,0 +1,15 @@
+.footer {
+    position: relative;
+    bottom: 0px;
+}
+
+.contact-info {
+    font-size: 16px;
+    margin: 40px 10px;
+    color: #769fb6 !important;
+    text-decoration: none;
+}
+
+.contact-info:hover {
+    color: black !important;
+}

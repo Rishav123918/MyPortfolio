@@ -1,4 +1,6 @@
 import React from "react";
+import Footer from "./Footer";
+import "../styles/AboutMe.css";
 
 function AboutMe() {
     return (
@@ -36,6 +38,7 @@ function AboutMe() {
                     skills.
                 </p>
             </div>
+            <Footer />
         </section>
     );
 }
