@@ -11,27 +11,43 @@ function Contact() {
             <div className="section-line"></div>
             <Form />
             <div className="section-body contact mt-auto">
-                <a className="contact-info" href="tel:425-350-1868">
+                <a
+                    className="contact-info"
+                    href="tel:425-350-1868"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <i className="fas fa-phone fa-2x"></i>
                 </a>
-                <a className="contact-info" href="mailto:jimmyz0622@gmail.com">
+                <a
+                    className="contact-info"
+                    href="mailto:jimmyz0622@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                >
                     <i className="fas fa-envelope-open-text fa-2x"></i>
                 </a>
                 <a
                     className="contact-info"
                     href="https://www.linkedin.com/in/jimmy-zheng/"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     <i className="fab fa-linkedin-in fa-2x"></i>
                 </a>
                 <a
                     className="contact-info"
                     href="https://github.com/ByteSizeError"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     <i className="fab fa-github fa-2x"></i>
                 </a>
                 <a
                     className="contact-info"
                     href="https://stackoverflow.com/users/16476386/bytesizeerror"
+                    target="_blank"
+                    rel="noreferrer"
                 >
                     <i className="fab fa-stack-overflow fa-2x"></i>
                 </a>
