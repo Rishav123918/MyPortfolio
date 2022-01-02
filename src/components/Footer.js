@@ -7,15 +7,24 @@ function Footer() {
             <a
                 className="contact-info"
                 href="https://www.linkedin.com/in/jimmy-zheng/"
+                target="_blank"
+                rel="noreferrer"
             >
                 <i className="fab fa-linkedin-in fa-2x"></i>
             </a>
-            <a className="contact-info" href="https://github.com/ByteSizeError">
+            <a
+                className="contact-info"
+                href="https://github.com/ByteSizeError"
+                target="_blank"
+                rel="noreferrer"
+            >
                 <i className="fab fa-github fa-2x"></i>
             </a>
             <a
                 className="contact-info"
                 href="https://stackoverflow.com/users/16476386/bytesizeerror"
+                target="_blank"
+                rel="noreferrer"
             >
                 <i className="fab fa-stack-overflow fa-2x"></i>
             </a>
