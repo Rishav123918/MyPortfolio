@@ -12,9 +12,11 @@ function Project(props) {
                     alt="project"
                 />
                 <div className="card-body">
-                    <h5 className="card-title">{props.project.name}</h5>
+                    <h5 className="card-title text-center">
+                        {props.project.name}
+                    </h5>
                 </div>
-                <div className="card-footer">
+                <div className="card-footer d-flex justify-content-evenly">
                     {props.project.repoUrl !== "" ? (
                         <Link name="Repository" url={props.project.repoUrl} />
                     ) : (
@@ -22,7 +24,7 @@ function Project(props) {
                     )}
                     {props.project.deployUrl !== "" ? (
                         <Link
-                            name="Deployed Link"
+                            name="Project Link"
                             url={props.project.deployUrl}
                         />
                     ) : (

@@ -13,6 +13,8 @@ function Projects(props) {
                 id="scroll-projects"
                 className="
                         section-body
+                        row
+                        row-cols-1
                         g-4
                         ms-1
                         me-1
