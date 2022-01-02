@@ -127,7 +127,7 @@ function Form() {
                     type="text"
                 />
                 <button
-                    className="btn btn-outline-primary"
+                    className="btn"
                     type="submit"
                     onClick={handleFormSubmit}
                 >

@@ -18,3 +18,13 @@ section {
 .scroll-snap {
     scroll-snap-align: start;
 }
+
+.btn {
+    color: #769fb6 !important;
+    border-color: #769fb6 !important;
+}
+
+.btn:hover {
+    color: white !important;
+    background-color: #769fb6 !important;
+}
