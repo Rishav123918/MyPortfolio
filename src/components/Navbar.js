@@ -4,7 +4,7 @@ import logo from "../assets/images/sitelogo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar fixed-top navbar-expand-md navbar-light bg-light">
+        <nav className="navbar fixed-top navbar-expand-md">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#landing">
                     <img
@@ -36,7 +36,7 @@ function Navbar() {
                             About Me
                         </a>
                         <a className="nav-link" href="#projects">
-                            Projects
+                            Portfolio
                         </a>
                         <a className="nav-link" href="#contact-me">
                             Contact Me
