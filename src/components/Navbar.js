@@ -4,7 +4,7 @@ import logo from "../assets/images/sitelogo.png";
 
 function Navbar() {
     return (
-        <nav className="navbar fixed-top navbar-expand-md">
+        <nav className="navbar fixed-top navbar-expand-md navbar-light">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#landing">
                     <img
