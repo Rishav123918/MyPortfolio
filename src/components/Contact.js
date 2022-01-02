@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./Form";
 import "../styles/Contact.css";
 
 function Contact() {
@@ -8,6 +9,7 @@ function Contact() {
                 <h2>Contact Me</h2>
             </header>
             <div className="section-line"></div>
+            <Form />
             <div className="section-body contact">
                 <a className="contact-info" href="tel:425-350-1868">
                     <i className="fas fa-phone fa-2x"></i>
