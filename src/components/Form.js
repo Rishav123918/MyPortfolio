@@ -84,8 +84,7 @@ function Form() {
     };
 
     return (
-        <div>
-            <p>Hello {name}</p>
+        <div className="ms-3 me-3">
             <form className="form">
                 <label className="form-label">Name</label>
                 {errorName && (
@@ -97,10 +96,11 @@ function Form() {
                     value={name}
                     name="name"
                     onChange={handleInputChange}
+                    onMouseLeave={handleInputChange}
                     type="text"
                 />
 
-                <label className="form-label">Email</label>
+                <label className="form-label mt-2">Email</label>
 
                 {errorEmail && (
                     <span className="error-text">&nbsp;&nbsp;{errorEmail}</span>
@@ -111,9 +111,10 @@ function Form() {
                     value={email}
                     name="email"
                     onChange={handleInputChange}
+                    onMouseLeave={handleInputChange}
                     type="email"
                 />
-                <label className="form-label">Message</label>
+                <label className="form-label mt-2">Message</label>
                 {errorMessage && (
                     <span className="error-text">&nbsp;{errorMessage}</span>
                 )}
@@ -124,10 +125,11 @@ function Form() {
                     value={message}
                     name="message"
                     onChange={handleInputChange}
+                    onMouseLeave={handleInputChange}
                     type="text"
                 />
                 <button
-                    className="btn"
+                    className="btn mt-3"
                     type="submit"
                     onClick={handleFormSubmit}
                 >

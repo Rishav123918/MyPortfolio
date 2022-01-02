@@ -4,12 +4,15 @@ import "../styles/AboutMe.css";
 
 function AboutMe() {
     return (
-        <section id="about-me" className="scroll-snap">
-            <header className="section-header">
+        <section
+            id="about-me"
+            className="scroll-snap d-flex align-items-start flex-column"
+        >
+            <header className="section-header ms-3 mb-3">
                 <h2>About Me</h2>
             </header>
             <div className="section-line"></div>
-            <div className="section-body ms-3">
+            <div className="section-body ms-3 mb-3">
                 <p>
                     Full Stack Developer experienced in making iOS and web
                     applications with strengths in meeting deadlines,
@@ -38,7 +41,9 @@ function AboutMe() {
                     skills.
                 </p>
             </div>
-            <Footer />
+            <div className="mt-auto ms-2 mb-2">
+                <Footer />
+            </div>
         </section>
     );
 }

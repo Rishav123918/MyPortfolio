@@ -5,7 +5,7 @@ import "../styles/Projects.css";
 function Projects(props) {
     return (
         <section id="projects" className="scroll-snap">
-            <header className="section-header">
+            <header className="section-header ms-3 mb-3">
                 <h2>Portfolio</h2>
             </header>
             <div className="section-line"></div>

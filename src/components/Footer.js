@@ -13,6 +13,12 @@ function Footer() {
             <a className="contact-info" href="https://github.com/ByteSizeError">
                 <i className="fab fa-github fa-2x"></i>
             </a>
+            <a
+                className="contact-info"
+                href="https://stackoverflow.com/users/16476386/bytesizeerror"
+            >
+                <i className="fab fa-stack-overflow fa-2x"></i>
+            </a>
         </div>
     );
 }
