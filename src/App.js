@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 import Landing from "./components/Landing";
 import Navbar from "./components/Navbar";
@@ -9,14 +9,14 @@ import Contact from "./components/Contact";
 import projects from "./assets/projects.js";
 
 function App() {
+    const [page, setPage] = useState("About Me");
     return (
         <main className="scroll">
-            <Landing />
-            <Navbar />
-
-            <AboutMe />
-            <Projects projects={projects} />
-            <Contact />
+            <Landing setPage={setPage} />
+            <Navbar setPage={setPage} page={page} />
+            <AboutMe setPage={setPage} />
+            <Projects setPage={setPage} projects={projects} />
+            <Contact setPage={setPage} />
         </main>
     );
 }

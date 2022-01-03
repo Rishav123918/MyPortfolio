@@ -2,11 +2,16 @@ import React from "react";
 import Footer from "./Footer";
 import "../styles/AboutMe.css";
 
-function AboutMe() {
+function AboutMe(props) {
+    const handlePageChange = (e) => {
+        props.setPage("About Me");
+    };
+
     return (
         <section
             id="about-me"
             className="scroll-snap d-flex align-items-start flex-column"
+            onMouseEnter={handlePageChange}
         >
             <header className="section-header ms-3 mb-3">
                 <h2>About Me</h2>

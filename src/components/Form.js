@@ -29,7 +29,7 @@ function Form() {
         } else if (inputType === "email") {
             setEmail(inputValue);
             if (!validateEmail(inputValue)) {
-                setErrorEmail("Email is invalid");
+                setErrorEmail("Please enter a valid email.");
                 document.querySelector("#email-form").style.borderColor = "red";
             } else {
                 setErrorEmail("");
@@ -63,7 +63,7 @@ function Form() {
         }
 
         if (!validateEmail(email)) {
-            setErrorEmail("Please enter a valid Email.");
+            setErrorEmail("Please enter a valid email.");
             error = true;
             document.querySelector("#email-form").style.borderColor = "red";
         }
@@ -88,7 +88,11 @@ function Form() {
             <form className="form">
                 <label className="form-label">Name</label>
                 {errorName && (
-                    <span className="error-text">&nbsp;{errorName}</span>
+                    <span className="error-text">
+                        &nbsp;&nbsp;
+                        <i className="fas fa-exclamation-circle"></i>
+                        &nbsp;{errorName}
+                    </span>
                 )}
                 <input
                     id="name-form"
@@ -103,7 +107,12 @@ function Form() {
                 <label className="form-label mt-2">Email</label>
 
                 {errorEmail && (
-                    <span className="error-text">&nbsp;&nbsp;{errorEmail}</span>
+                    <span className="error-text">
+                        &nbsp;&nbsp;
+                        <i className="fas fa-exclamation-circle"></i>
+                        &nbsp;
+                        {errorEmail}
+                    </span>
                 )}
                 <input
                     id="email-form"
@@ -116,7 +125,11 @@ function Form() {
                 />
                 <label className="form-label mt-2">Message</label>
                 {errorMessage && (
-                    <span className="error-text">&nbsp;{errorMessage}</span>
+                    <span className="error-text">
+                        &nbsp;&nbsp;
+                        <i className="fas fa-exclamation-circle"></i>
+                        &nbsp;{errorMessage}
+                    </span>
                 )}
 
                 <textarea
@@ -133,7 +146,7 @@ function Form() {
                     type="submit"
                     onClick={handleFormSubmit}
                 >
-                    Submit
+                    <i className="far fa-paper-plane"></i>&nbsp;Submit
                 </button>
             </form>
         </div>

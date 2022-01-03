@@ -2,9 +2,17 @@ import React from "react";
 import Form from "./Form";
 import "../styles/Contact.css";
 
-function Contact() {
+function Contact(props) {
+    const handlePageChange = (e) => {
+        props.setPage("Contact");
+    };
+
     return (
-        <section id="contact-me" className="scroll-snap d-flex flex-column">
+        <section
+            id="contact-me"
+            className="scroll-snap d-flex flex-column"
+            onMouseEnter={handlePageChange}
+        >
             <header className="section-header ms-3 mb-3">
                 <h2>Contact Me</h2>
             </header>
