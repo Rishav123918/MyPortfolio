@@ -76,11 +76,14 @@ function Form() {
         if (error) {
             return;
         }
-        // If successful, we want to clear out the input after registration.
+
+        window.open(
+            `mailto:jimmyz0622@gmail.com?subject=${name}&body=${message} %0d%0a%0d%0aName: ${name} %0d%0aEmail: ${email}`
+        );
         setName("");
         setEmail("");
         setMessage("");
-        alert(`Hello ${name}`);
+        alert("Email generated");
     };
 
     return (

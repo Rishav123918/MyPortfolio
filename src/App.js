@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import "./App.css";
-import Landing from "./components/Landing";
+import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
-import AboutMe from "./components/AboutMe";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import AboutMe from "./pages/AboutMe";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
 import projects from "./assets/projects.js";
 
@@ -12,10 +13,11 @@ function App() {
     const [page, setPage] = useState("About Me");
     return (
         <main className="scroll">
-            <Landing setPage={setPage} />
+            <Landing setPage={setPage} page={page} />
             <Navbar setPage={setPage} page={page} />
             <AboutMe setPage={setPage} />
             <Projects setPage={setPage} projects={projects} />
+            <Resume setPage={setPage} />
             <Contact setPage={setPage} />
         </main>
     );

@@ -64,6 +64,16 @@ function Navbar(props) {
                             Portfolio
                         </a>
                         <a
+                            name="Resume"
+                            className={
+                                props.page === "Resume" ? "active" : "nav-link"
+                            }
+                            href="#resume"
+                            onClick={handlePageChange}
+                        >
+                            Resume
+                        </a>
+                        <a
                             name="Contact Me"
                             className={
                                 props.page === "Contact" ? "active" : "nav-link"
@@ -72,13 +82,6 @@ function Navbar(props) {
                             onClick={handlePageChange}
                         >
                             Contact Me
-                        </a>
-                        <a
-                            className="nav-link"
-                            href="assets/Jimmy-Zheng-Resume.pdf"
-                            target="_blank"
-                        >
-                            Resume
                         </a>
                     </div>
                 </div>

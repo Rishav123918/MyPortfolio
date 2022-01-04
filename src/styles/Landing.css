@@ -12,3 +12,9 @@
     align-items: center;
     height: 100vh;
 }
+
+.arrow {
+    color: #769fb6 !important;
+    position: absolute;
+    bottom: 10px;
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "../components/Footer";
 import "../styles/Landing.css";
 import TypeAnimation from "react-type-animation";
 
@@ -11,7 +11,7 @@ function Landing(props) {
     return (
         <div
             id="landing"
-            className="scroll-snap"
+            className="scroll-snap d-flex flex-column"
             onMouseEnter={handlePageChange}
         >
             <div className="center">
@@ -23,6 +23,11 @@ function Landing(props) {
                 />
                 <h5>Software Developer</h5>
                 <Footer />
+                {props.page === "About Me" ? (
+                    <i className="fas fa-angle-double-down fa-2x arrow"></i>
+                ) : (
+                    ""
+                )}
             </div>
         </div>
     );
