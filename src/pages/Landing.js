@@ -23,11 +23,6 @@ function Landing(props) {
                 />
                 <h5>Software Developer</h5>
                 <Footer />
-                {props.page === "About Me" ? (
-                    <i className="fas fa-angle-double-down fa-2x arrow"></i>
-                ) : (
-                    ""
-                )}
             </div>
         </div>
     );

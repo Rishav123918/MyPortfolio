@@ -13,7 +13,7 @@ function App() {
     const [page, setPage] = useState("About Me");
     return (
         <main className="scroll">
-            <Landing setPage={setPage} page={page} />
+            <Landing setPage={setPage} />
             <Navbar setPage={setPage} page={page} />
             <AboutMe setPage={setPage} />
             <Projects setPage={setPage} projects={projects} />
