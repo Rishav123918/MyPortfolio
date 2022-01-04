@@ -17,7 +17,6 @@ function Projects(props) {
                 <h2>Portfolio</h2>
             </header>
             <div
-                id="scroll-projects"
                 className="
                         section-body
                         row
@@ -25,6 +24,8 @@ function Projects(props) {
                         g-4
                         ms-1
                         me-1
+                        mb-3
+                        scroll-snap-end
                     "
             >
                 {props.projects.map((project, index) => (
