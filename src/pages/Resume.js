@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../assets/Jimmy-Zheng-Resume.pdf";
 
 function Resume(props) {
     const handlePageChange = (e) => {
@@ -11,26 +12,42 @@ function Resume(props) {
             className="scroll-snap"
             onMouseEnter={handlePageChange}
         >
-            <a href="">Download my resume</a>
-            <h5>Front-End</h5>
-            <ul>
-                <li>React</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>Bootstrap</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-            <h5>Back-End</h5>
-            <ul>
-                <li>Node</li>
-                <li>Express</li>
-                <li>APIs</li>
-                <li>GraphQL</li>
-                <li>MySQL</li>
-                <li>MongoDB</li>
-                <li>REST</li>
-            </ul>
+            <header className="section-header ms-3 mb-3">
+                <h2>Resume</h2>
+            </header>
+            <div className="ms-3">
+                <a
+                    className="btn"
+                    href={resume}
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
+                    Resume
+                </a>
+                <h5 className="mt-3">Front-End</h5>
+                <ul>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>jQuery</li>
+                    <li>Bootstrap</li>
+                    <li>Handlebars</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Responsive Design</li>
+                </ul>
+                <h5>Back-End</h5>
+                <ul>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>APIs</li>
+                    <li>GraphQL</li>
+                    <li>MySQL</li>
+                    <li>Sequelize</li>
+                    <li>MongoDB/Mongoose</li>
+                    <li>REST</li>
+                </ul>
+            </div>
         </section>
     );
 }
