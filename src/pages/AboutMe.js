@@ -16,7 +16,6 @@ function AboutMe(props) {
             <header className="section-header ms-3 mb-3">
                 <h2>About Me</h2>
             </header>
-            <div className="section-line"></div>
             <div className="section-body ms-3 mb-3">
                 <p>
                     Full Stack Developer experienced in making iOS and web

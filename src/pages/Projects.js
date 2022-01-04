@@ -16,7 +16,6 @@ function Projects(props) {
             <header className="section-header ms-3 mb-3">
                 <h2>Portfolio</h2>
             </header>
-            <div className="section-line"></div>
             <div
                 id="scroll-projects"
                 className="

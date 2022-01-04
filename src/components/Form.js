@@ -149,7 +149,8 @@ function Form() {
                     type="submit"
                     onClick={handleFormSubmit}
                 >
-                    <i className="far fa-paper-plane"></i>&nbsp;Submit
+                    <i className="far fa-paper-plane"></i>&nbsp;&nbsp;Create
+                    Message
                 </button>
             </form>
         </div>

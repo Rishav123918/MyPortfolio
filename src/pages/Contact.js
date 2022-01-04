@@ -16,7 +16,6 @@ function Contact(props) {
             <header className="section-header ms-3 mb-3">
                 <h2>Contact Me</h2>
             </header>
-            <div className="section-line"></div>
             <Form />
             <div className="section-body contact mt-auto">
                 <a

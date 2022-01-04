@@ -8,7 +8,7 @@ function Link(props) {
             ) : (
                 <i className="fas fa-globe"></i>
             )}
-            &nbsp;{props.name}
+            &nbsp;&nbsp;{props.name}
         </a>
     );
 }
