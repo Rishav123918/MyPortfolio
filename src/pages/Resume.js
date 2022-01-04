@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import resume from "../assets/Jimmy-Zheng-Resume.pdf";
 
 function Resume(props) {
@@ -9,7 +10,7 @@ function Resume(props) {
     return (
         <section
             id="resume"
-            className="scroll-snap"
+            className="scroll-snap d-flex align-items-start flex-column"
             onMouseEnter={handlePageChange}
         >
             <header className="section-header ms-3 mb-3">
@@ -47,6 +48,9 @@ function Resume(props) {
                     <li>MongoDB/Mongoose</li>
                     <li>REST</li>
                 </ul>
+            </div>
+            <div className="mt-auto ms-2 mb-2">
+                <Footer />
             </div>
         </section>
     );
