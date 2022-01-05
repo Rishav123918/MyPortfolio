@@ -1,11 +1,25 @@
 import React from "react";
 import Footer from "../components/Footer";
+import Skill from "../components/Skill";
 import resume from "../assets/Jimmy-Zheng-Resume.pdf";
 
 function Resume(props) {
     const handlePageChange = (e) => {
         props.setPage("Resume");
     };
+
+    props.skills.sort((a, b) => {
+        let na = a.name.toLowerCase(),
+            nb = b.name.toLowerCase();
+
+        if (na < nb) {
+            return -1;
+        }
+        if (na > nb) {
+            return 1;
+        }
+        return 0;
+    });
 
     return (
         <section
@@ -26,30 +40,17 @@ function Resume(props) {
                     <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
                     Resume
                 </a>
-                <h5 className="mt-3">Front-End</h5>
-                <ul>
-                    <li>React</li>
-                    <li>JavaScript</li>
-                    <li>jQuery</li>
-                    <li>Bootstrap</li>
-                    <li>Handlebars</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Responsive Design</li>
-                </ul>
-                <h5>Back-End</h5>
-                <ul>
-                    <li>Node</li>
-                    <li>Express</li>
-                    <li>APIs</li>
-                    <li>GraphQL</li>
-                    <li>MySQL</li>
-                    <li>Sequelize</li>
-                    <li>MongoDB/Mongoose</li>
-                    <li>REST</li>
-                </ul>
+                <h4 className="mt-3">Skills</h4>
+                <div
+                    className="row justify-content-space-between"
+                    style={{ width: "100%" }}
+                >
+                    {props.skills.map((skill, index) => (
+                        <Skill key={index} skill={skill} />
+                    ))}
+                </div>
             </div>
-            <div className="mt-auto ms-2 mb-2">
+            <div className="mt-auto ms-2 mb-2 scroll-snap-end">
                 <Footer />
             </div>
         </section>
