@@ -3,7 +3,7 @@ import "../styles/Footer.css";
 
 function Footer() {
     return (
-        <div className="footer">
+        <div className="footer ms-2 mb-2 me-2">
             <a
                 className="contact-info"
                 href="https://www.linkedin.com/in/jimmy-zheng/"

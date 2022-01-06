@@ -45,7 +45,7 @@ function AboutMe(props) {
                     skills.
                 </p>
             </div>
-            <div className="mt-auto ms-2 mb-2">
+            <div className="mt-auto scroll-snap-end">
                 <Footer />
             </div>
         </section>

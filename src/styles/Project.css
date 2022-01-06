@@ -1,14 +1,5 @@
 .card-img-top {
     width: 100% !important;
-    height: 30vh;
+    height: 20vh;
     object-fit: cover;
 }
-
-/* .card {
-    opacity: 0;
-}
-
-.card.show {
-    transform: translateX(0);
-    opacity: 1;
-} */

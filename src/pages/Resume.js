@@ -30,27 +30,26 @@ function Resume(props) {
             <header className="section-header ms-3 mb-3">
                 <h2>Resume</h2>
             </header>
-            <div className="ms-3">
-                <a
-                    className="btn"
-                    href={resume}
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
-                    Resume
-                </a>
+            <div className="ms-3 me-3">
+                <div className="d-grid">
+                    <a
+                        className="btn "
+                        href={resume}
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
+                        Resume
+                    </a>
+                </div>
                 <h4 className="mt-3">Skills</h4>
-                <div
-                    className="row justify-content-space-between"
-                    style={{ width: "100%" }}
-                >
+                <div className="row justify-content-space-between">
                     {props.skills.map((skill, index) => (
                         <Skill key={index} skill={skill} />
                     ))}
                 </div>
             </div>
-            <div className="mt-auto ms-2 mb-2 scroll-snap-end">
+            <div className="mt-auto scroll-snap-end">
                 <Footer />
             </div>
         </section>
