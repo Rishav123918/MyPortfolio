@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import "../styles/Landing.css";
+import logo from "../assets/images/sitelogo.png";
 import TypeAnimation from "react-type-animation";
 
 function Landing(props) {
@@ -15,6 +16,8 @@ function Landing(props) {
             onMouseEnter={handlePageChange}
         >
             <div className="center">
+                <img src={logo} alt="avatar" className="photo mb-2" />
+
                 <TypeAnimation
                     cursor={true}
                     sequence={["", 500, "Jimmy Zheng", 2000]}

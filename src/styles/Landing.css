@@ -13,8 +13,7 @@
     height: 100vh;
 }
 
-.arrow {
-    color: #769fb6 !important;
-    position: absolute;
-    bottom: 10px;
+.photo {
+    height: 20vh;
+    width: 20vh;
 }
