@@ -7,9 +7,10 @@
     font-size: 16px;
     margin: 40px 10px;
     color: #769fb6 !important;
+    opacity: 0.6;
     text-decoration: none;
 }
 
 .contact-info:hover {
-    color: black !important;
+    opacity: 1;
 }
