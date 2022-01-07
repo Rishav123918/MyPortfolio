@@ -10,6 +10,7 @@ function Project(props) {
                     src={props.project.img}
                     className="card-img-top"
                     alt="project"
+                    loading="lazy"
                 />
                 <div className="card-body">
                     <h5 className="card-title text-center">
