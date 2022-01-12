@@ -10,6 +10,7 @@ import note from "./images/note-low.jpeg";
 import programming from "./images/programming-low.jpeg";
 import password from "./images/password-low.jpeg";
 import quiz from "./images/quiz-low.jpeg";
+import book from "./images/book-low.jpeg";
 import microsoft from "./images/microsoft.jpeg";
 import music from "./images/music-trivia-logo.png";
 
@@ -31,6 +32,12 @@ const projects = [
         repoUrl: "https://github.com/ChonaC/Project-2-MUSICTRIVIA",
         deployUrl: "https://protected-falls-91774.herokuapp.com/",
         img: music,
+    },
+    {
+        name: "Book Search Engine",
+        repoUrl: "https://github.com/ByteSizeError/Book-Search-Engine",
+        deployUrl: "https://evening-plains-22699.herokuapp.com/",
+        img: book,
     },
     {
         name: "The Tech Blog",

@@ -139,6 +139,10 @@ const skills = [
         name: "webpack",
         icon: <i className="devicon-webpack-plain colored"></i>,
     },
+    {
+        name: "Redux",
+        icon: <i className="devicon-redux-plain colored"></i>,
+    },
 ];
 
 export default skills;
