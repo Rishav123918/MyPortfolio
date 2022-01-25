@@ -11,6 +11,7 @@ import programming from "./images/programming-low.jpeg";
 import password from "./images/password-low.jpeg";
 import quiz from "./images/quiz-low.jpeg";
 import book from "./images/book-low.jpeg";
+import backend from "./images/backend-low.jpeg";
 import microsoft from "./images/microsoft.jpeg";
 import music from "./images/music-trivia-logo.png";
 
@@ -86,7 +87,7 @@ const projects = [
         name: "E-Commerce Back End",
         repoUrl: "https://bit.ly/e-commerce-repo",
         deployUrl: "",
-        img: shopping,
+        img: backend,
     },
     {
         name: "Employee Management System",
