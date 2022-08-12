@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Skill from "../components/Skill";
-import resume from "../assets/JimmyZhengResume.pdf";
+import resume from "../assets/Jimmy-Zheng-Resume.pdf";
 
 function Resume(props) {
     const handlePageChange = (e) => {
