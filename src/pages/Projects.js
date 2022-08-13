@@ -34,22 +34,14 @@ function Projects(props) {
             <header className="section-header ms-3 mb-3">
                 <h2>Portfolio</h2>
             </header>
-            <div
-                className="
-                        section-body
-                        row
-                        row-cols-1
-                        row-cols-md-2
-                        row-cols-xxl-3
-                        g-4
-                        ms-1
-                        me-1
-                        mb-3
-                    "
-            >
-                {projects.map((project, index) => (
-                    <Project key={index} project={project} />
-                ))}
+            {/*  */}
+
+            <div className="container py-5">
+                <div className="main-timeline-2">
+                    {projects.map((project, index) => (
+                        <Project key={index} project={project} index={index} />
+                    ))}
+                </div>
             </div>
             <div className="d-grid scroll-snap-end">
                 <button
