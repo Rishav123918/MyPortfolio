@@ -23,17 +23,18 @@ const projects = [
         img: microsoft,
     },
     {
+        name: "Music Trivia",
+        repoUrl: "https://bit.ly/music-trivia-3-repo",
+        deployUrl: "https://bit.ly/music-trivia-3",
+        img: music,
+    },
+    {
         name: "J-Zhopping",
         repoUrl: "https://bit.ly/redux-store-repo",
         deployUrl: "https://bit.ly/z-shopping",
         img: shopping,
     },
-    {
-        name: "Music Trivia 2.0",
-        repoUrl: "https://bit.ly/music-trivia-2-repo",
-        deployUrl: "https://bit.ly/music-trivia-2",
-        img: music,
-    },
+
     {
         name: "Book Search Engine",
         repoUrl: "https://bit.ly/book-search-repo",
