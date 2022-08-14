@@ -14,7 +14,7 @@ import book from "./images/book-low.jpeg";
 import backend from "./images/backend-low.jpeg";
 import microsoft from "./images/microsoft.jpeg";
 import music from "./images/music-trivia-logo.png";
-import portfolio from "./images/sitelogo.png";
+import portfolio from "./images/sitelogowhite.png";
 
 const projects = [
     {
@@ -84,7 +84,7 @@ const projects = [
     {
         name: "Note Taker",
         description:
-            "This project is a note taking app, users can write notes down to be saved for later reference. My motivation for this project was to make something that can be used to takes notes and be referred back to with any device. The problem this solves is it can be used by muliptle people and the notes will be linked to a single database so everyone will have the same notes. Which can be convient for team projects or as a shopping list for a household.",
+            "This project is a note taking app, users can write notes down to be saved for later reference. My motivation for this project was to make something that can be used to takes notes and be referred back to with any device. The problem this solves is it can be used by multiple people and the notes will be linked to a single database so everyone will have the same notes.",
         date: "October 2021",
         repoUrl: "https://bit.ly/3tpKe6W",
         deployUrl: "https://bit.ly/33xxtMz",
@@ -93,7 +93,7 @@ const projects = [
     {
         name: "E-Commerce Back End",
         description:
-            "This project is an e-commerce back end, it can view categories, tags, and products inside the database. It can also add additional categories, tags, products. As well as update, delete, or find by id for any of the sections. My motivation for creating this project was to hone my skills with API routes and using sequalize. The problem this helps with is companies can use this to manage their back end keep track of products.",
+            "This project is an e-commerce back end, it can view categories, tags, and products inside the database. It can also add additional categories, tags, products. As well as update, delete, or find by id for any of the sections. My motivation for creating this project was to hone my skills with API routes and using sequalize. ",
         date: "October 2021",
         repoUrl: "https://bit.ly/e-commerce-repo",
         deployUrl: "",
@@ -102,7 +102,7 @@ const projects = [
     {
         name: "Employee Management System",
         description:
-            "This project is an employee management system, it can view all employees, roles, and departments inside the database. It can also add additional employees, roles, and departments. My motivation for creating this project was to help users manager their employees, roles, and department within their company in a simple interface. The problem this helps with is companies can have an easier time keeping track of their employees, which department they're in, what is their role is and who their managers is.",
+            "This project is an employee management system, it can view all employees, roles, and departments inside the database. It can also add additional employees, roles, and departments. My motivation for creating this project was to help users manager their employees, roles, and department within their company in a simple interface. ",
         date: "October 2021",
         repoUrl: "https://bit.ly/3fqDi0Z",
         deployUrl: "",
@@ -111,7 +111,7 @@ const projects = [
     {
         name: "Team Profile Generator",
         description:
-            "This project is a team profile generator, it takes in user inputs with inquirer and creates an HTML page with all their team's information. My motivation for this project was to create something that can help people who work in large teams keep track of their team information. The problem this solves is it can help team members easily find information on their teammates at a glance.",
+            "This project is a team profile generator, it takes in user inputs with inquirer and creates an HTML page with all their team's information. My motivation for this project was to create something that can help people who work in large teams keep track of their team information. ",
         date: "October 2021",
         repoUrl: "https://bit.ly/Team-Profile-Generator-Repo",
         deployUrl: "",
@@ -164,7 +164,8 @@ const projects = [
     },
     {
         name: "Microsoft's DCCD Charitable Givings App Prototype",
-        description: "(Private Repo)",
+        description:
+            "This project was for my Senior Design Project, our team was awarded 3rd place on our web application for Microsoft’s charitable giving prototype by a panel of judges from the industry. (Private Repo)",
         date: "August 2020",
         repoUrl: "https://bit.ly/dccd-repo",
         deployUrl: "",
