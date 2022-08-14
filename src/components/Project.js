@@ -21,7 +21,10 @@ function Project(props) {
                 <div className="card-body p-4">
                     <h4 className="fw-bold mb-4">{props.project.name}</h4>
                     <p className="text-muted mb-4">
-                        <i className="far fa-clock" aria-hidden="true"></i>{" "}
+                        <i
+                            className="fas fa-calendar-day"
+                            aria-hidden="true"
+                        ></i>{" "}
                         &nbsp;
                         {props.project.date}
                     </p>
