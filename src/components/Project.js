@@ -6,9 +6,7 @@ function Project(props) {
     return (
         <div
             className={
-                props.index % 2 === 0
-                    ? "timeline-2 left-2"
-                    : "timeline-2 right-2"
+                props.index % 2 === 0 ? "timeline left" : "timeline right"
             }
         >
             <div className="card">

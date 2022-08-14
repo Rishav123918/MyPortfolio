@@ -32,7 +32,7 @@ function Resume(props) {
             </header>
             <div className="ms-3 me-3">
                 <div className="d-grid">
-                    <a
+                    {/* <a
                         className="btn "
                         href={resume}
                         target="_blank"
@@ -40,7 +40,15 @@ function Resume(props) {
                     >
                         <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
                         Resume
-                    </a>
+                    </a> */}
+                    <iframe
+                        src={resume}
+                        title="JimmyZhengResume"
+                        width="100%"
+                        height="650px"
+                        frameBorder="0"
+                        allowFullScreen=""
+                    />
                 </div>
                 <h4 className="mt-3">Skills</h4>
                 <div className="row justify-content-space-between">

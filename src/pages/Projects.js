@@ -37,7 +37,7 @@ function Projects(props) {
             {/*  */}
 
             <div className="container py-5">
-                <div className="main-timeline-2">
+                <div className="main-timeline">
                     {projects.map((project, index) => (
                         <Project key={index} project={project} index={index} />
                     ))}
