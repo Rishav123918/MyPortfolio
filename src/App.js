@@ -9,6 +9,10 @@ import Resume from "./pages/Resume";
 
 import projects from "./assets/projects.js";
 import skills from "./assets/skills.js";
+import language from "./assets/skills-language.js";
+import framework from "./assets/skills-framework.js";
+import database from "./assets/skills-database.js";
+import tool from "./assets/skills-tools.js";
 
 function App() {
     const [page, setPage] = useState("About Me");
@@ -18,7 +22,14 @@ function App() {
             <Navbar setPage={setPage} page={page} />
             <AboutMe setPage={setPage} />
             <Projects setPage={setPage} projects={projects} />
-            <Resume setPage={setPage} skills={skills} />
+            <Resume
+                setPage={setPage}
+                skills={skills}
+                language={language}
+                framework={framework}
+                database={database}
+                tool={tool}
+            />
             <Contact setPage={setPage} />
         </main>
     );

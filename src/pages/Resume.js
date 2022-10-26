@@ -50,7 +50,35 @@ function Resume(props) {
                         allowFullScreen=""
                     />
                 </div>
-                <h4 className="mt-3">Skills</h4>
+                <h4 className="mt-3">Languages</h4>
+                <div className="row justify-content-space-between">
+                    {props.language.map((skill, index) => (
+                        <Skill key={index} skill={skill} />
+                    ))}
+                </div>
+
+                <h4 className="mt-3">Frameworks</h4>
+                <div className="row justify-content-space-between">
+                    {props.framework.map((skill, index) => (
+                        <Skill key={index} skill={skill} />
+                    ))}
+                </div>
+
+                <h4 className="mt-3">Databases</h4>
+                <div className="row justify-content-space-between">
+                    {props.database.map((skill, index) => (
+                        <Skill key={index} skill={skill} />
+                    ))}
+                </div>
+
+                <h4 className="mt-3">Tools</h4>
+                <div className="row justify-content-space-between">
+                    {props.tool.map((skill, index) => (
+                        <Skill key={index} skill={skill} />
+                    ))}
+                </div>
+
+                <h4 className="mt-3">All Skills</h4>
                 <div className="row justify-content-space-between">
                     {props.skills.map((skill, index) => (
                         <Skill key={index} skill={skill} />
