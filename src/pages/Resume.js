@@ -32,21 +32,11 @@ function Resume(props) {
             </header>
             <div className="ms-3 me-3">
                 <div className="d-grid">
-                    {/* <a
-                        className="btn "
-                        href={resume}
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <i className="fas fa-file-download"></i>&nbsp;&nbsp;View
-                        Resume
-                    </a> */}
                     <iframe
                         src={resume}
                         title="JimmyZhengResume"
                         width="100%"
                         height="650px"
-                        frameBorder="0"
                         allowFullScreen=""
                     />
                 </div>

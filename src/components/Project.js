@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Project.css";
 import Link from "./Link";
+import { Image } from "antd";
 
 function Project(props) {
     return (
@@ -10,12 +11,7 @@ function Project(props) {
             }
         >
             <div className="card">
-                <img
-                    src={props.project.img}
-                    className="card-img-top"
-                    alt="project"
-                    loading="lazy"
-                />
+                <Image src={props.project.img} />
                 <div className="card-body p-4">
                     <h4 className="fw-bold mb-4">{props.project.name}</h4>
                     <p className="text-muted mb-4">
