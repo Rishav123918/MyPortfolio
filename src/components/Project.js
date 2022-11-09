@@ -11,7 +11,12 @@ function Project(props) {
             }
         >
             <div className="card">
-                <Image src={props.project.img} />
+                <Image
+                    src={props.project.img}
+                    placeholder={
+                        <Image preview={false} src={props.project.img_low} />
+                    }
+                />
                 <div className="card-body p-4">
                     <h4 className="fw-bold mb-4">{props.project.name}</h4>
                     <p className="text-muted mb-4">

@@ -1,16 +1,34 @@
-import fitness from "./images/fitness-low.jpeg";
-import blog from "./images/blog-low.jpeg";
-import budget from "./images/budget-low.jpeg";
-import schedule from "./images/schedule-low.jpeg";
-import weather from "./images/weather-low.jpeg";
-import team from "./images/team-low.jpeg";
-import employee from "./images/employee-low.jpeg";
-import shopping from "./images/shopping-low.jpeg";
-import note from "./images/note-low.jpeg";
-import programming from "./images/programming-low.jpeg";
-import password from "./images/password-low.jpeg";
-import quiz from "./images/quiz-low.jpeg";
-import book from "./images/book-low.jpeg";
+import fitness_low from "./images/fitness-low.jpeg";
+import blog_low from "./images/blog-low.jpeg";
+import budget_low from "./images/budget-low.jpeg";
+import schedule_low from "./images/schedule-low.jpeg";
+import weather_low from "./images/weather-low.jpeg";
+import team_low from "./images/team-low.jpeg";
+import employee_low from "./images/employee-low.jpeg";
+import shopping_low from "./images/shopping-low.jpeg";
+import note_low from "./images/note-low.jpeg";
+import programming_low from "./images/programming-low.jpeg";
+import password_low from "./images/password-low.jpeg";
+import quiz_low from "./images/quiz-low.jpeg";
+import book_low from "./images/book-low.jpeg";
+import backend_low from "./images/backend-low.jpeg";
+import microsoft_low from "./images/microsoft.jpeg";
+import music_low from "./images/music-trivia-logo.png";
+import portfolio_low from "./images/sitelogowhite.png";
+
+import fitness from "./images/fitness.jpg";
+import blog from "./images/blog.jpg";
+import budget from "./images/budget.jpg";
+import schedule from "./images/schedule.jpg";
+import weather from "./images/weather.jpg";
+import team from "./images/team.jpg";
+import employee from "./images/employee.jpg";
+import shopping from "./images/shopping.jpg";
+import note from "./images/note.jpg";
+import programming from "./images/programming.jpg";
+import password from "./images/password.jpg";
+import quiz from "./images/quiz.jpg";
+import book from "./images/book.jpg";
 import backend from "./images/backend-low.jpeg";
 import microsoft from "./images/microsoft.jpeg";
 import music from "./images/music-trivia-logo.png";
@@ -25,6 +43,7 @@ const projects = [
         repoUrl: "https://bit.ly/music-trivia-3-repo",
         deployUrl: "https://bit.ly/music-trivia-3",
         img: music,
+        img_low: music_low,
     },
     {
         name: "React Portfolio",
@@ -34,6 +53,7 @@ const projects = [
         repoUrl: "https://bit.ly/jimmy-zheng-repo",
         deployUrl: "https://bit.ly/jimmy-zheng",
         img: portfolio,
+        img_low: portfolio_low,
     },
     {
         name: "J-Zhopping",
@@ -43,6 +63,7 @@ const projects = [
         repoUrl: "https://bit.ly/redux-store-repo",
         deployUrl: "https://bit.ly/z-shopping",
         img: shopping,
+        img_low: shopping_low,
     },
 
     {
@@ -53,6 +74,7 @@ const projects = [
         repoUrl: "https://bit.ly/book-search-repo",
         deployUrl: "https://bit.ly/book-search-engine",
         img: book,
+        img_low: book_low,
     },
     {
         name: "Progressive Budget Tracker",
@@ -62,6 +84,7 @@ const projects = [
         repoUrl: "https://bit.ly/3K7rH55",
         deployUrl: "https://bit.ly/3qlxf4a",
         img: budget,
+        img_low: budget_low,
     },
     {
         name: "Fitness Tracker",
@@ -71,6 +94,7 @@ const projects = [
         repoUrl: "https://bit.ly/3A7XjDr",
         deployUrl: "https://bit.ly/3njmtJJ",
         img: fitness,
+        img_low: fitness_low,
     },
     {
         name: "The Tech Blog",
@@ -80,6 +104,7 @@ const projects = [
         repoUrl: "https://bit.ly/tech-blog-repo",
         deployUrl: "https://bit.ly/the-tech-blog",
         img: blog,
+        img_low: blog_low,
     },
     {
         name: "Note Taker",
@@ -89,6 +114,7 @@ const projects = [
         repoUrl: "https://bit.ly/3tpKe6W",
         deployUrl: "https://bit.ly/33xxtMz",
         img: note,
+        img_low: note_low,
     },
     {
         name: "E-Commerce Back End",
@@ -98,6 +124,7 @@ const projects = [
         repoUrl: "https://bit.ly/e-commerce-repo",
         deployUrl: "",
         img: backend,
+        img_low: backend_low,
     },
     {
         name: "Employee Management System",
@@ -107,6 +134,7 @@ const projects = [
         repoUrl: "https://bit.ly/3fqDi0Z",
         deployUrl: "",
         img: employee,
+        img_low: employee_low,
     },
     {
         name: "Team Profile Generator",
@@ -116,6 +144,7 @@ const projects = [
         repoUrl: "https://bit.ly/Team-Profile-Generator-Repo",
         deployUrl: "",
         img: team,
+        img_low: team_low,
     },
     {
         name: "Weather Dashboard",
@@ -125,6 +154,7 @@ const projects = [
         repoUrl: "https://bit.ly/Weather-Dashboard-Repo",
         deployUrl: "https://bit.ly/Weather-Dashboard",
         img: weather,
+        img_low: weather_low,
     },
     {
         name: "Work Day Scheduler",
@@ -134,6 +164,7 @@ const projects = [
         repoUrl: "https://bit.ly/31Ur7Xp",
         deployUrl: "https://bit.ly/3nmTC7x",
         img: schedule,
+        img_low: schedule_low,
     },
     {
         name: "Code Quiz",
@@ -143,6 +174,7 @@ const projects = [
         repoUrl: "https://bit.ly/3qo7LmO",
         deployUrl: "https://bit.ly/33uRF1I",
         img: quiz,
+        img_low: quiz_low,
     },
     {
         name: "Password Generator",
@@ -152,6 +184,7 @@ const projects = [
         repoUrl: "https://bit.ly/3qmZzDh",
         deployUrl: "https://bit.ly/34OnaVd",
         img: password,
+        img_low: password_low,
     },
     {
         name: "Command Line Interface Themed Portfolio",
@@ -161,6 +194,7 @@ const projects = [
         repoUrl: "",
         deployUrl: "https://bytesizeerror.github.io/",
         img: programming,
+        img_low: programming_low,
     },
     {
         name: "Microsoft's DCCD Charitable Givings App Prototype",
@@ -170,6 +204,7 @@ const projects = [
         repoUrl: "https://bit.ly/dccd-repo",
         deployUrl: "",
         img: microsoft,
+        img_low: microsoft_low,
     },
 ];
 
