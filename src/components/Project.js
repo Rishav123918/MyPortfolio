@@ -14,6 +14,7 @@ function Project(props) {
         >
             <Card
                 className="card"
+                style={{ borderRadius: "32px", overflow: "hidden" }}
                 cover={
                     <Image
                         preview={false}
@@ -25,6 +26,7 @@ function Project(props) {
                             marginRight: "auto",
                             display: "block",
                             marginTop: "32px",
+                            borderRadius: "32px",
                         }}
                         src={props.project.img}
                         placeholder={
