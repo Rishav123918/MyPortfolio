@@ -16,13 +16,15 @@ function Project(props) {
                 className="card"
                 cover={
                     <Image
+                        preview={false}
                         style={{
                             maxHeight: "300px",
                             width: "auto",
-                            maxWidth: "100%",
+                            maxWidth: "80%",
                             marginLeft: "auto",
                             marginRight: "auto",
                             display: "block",
+                            marginTop: "32px",
                         }}
                         src={props.project.img}
                         placeholder={
