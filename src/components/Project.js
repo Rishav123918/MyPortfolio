@@ -1,7 +1,9 @@
 import React from "react";
 import "../styles/Project.css";
 import Link from "./Link";
-import { Image } from "antd";
+import { Image, Space, Card, Typography } from "antd";
+const { Title, Text } = Typography;
+const { Meta } = Card;
 
 function Project(props) {
     return (
@@ -10,25 +12,29 @@ function Project(props) {
                 props.index % 2 === 0 ? "timeline left" : "timeline right"
             }
         >
-            <div className="card">
-                <Image
-                    src={props.project.img}
-                    placeholder={
-                        <Image preview={false} src={props.project.img_low} />
-                    }
-                />
-                <div className="card-body p-4">
-                    <h4 className="fw-bold mb-4">{props.project.name}</h4>
-                    <p className="text-muted mb-4">
-                        <i
-                            className="fas fa-calendar-day"
-                            aria-hidden="true"
-                        ></i>{" "}
-                        &nbsp;
-                        {props.project.date}
-                    </p>
-                    <p className="mb-4">{props.project.description}</p>
-                    <div className="d-flex flex-wrap">
+            <Card
+                className="card"
+                cover={
+                    <Image
+                        style={{
+                            maxHeight: "300px",
+                            width: "auto",
+                            maxWidth: "100%",
+                            marginLeft: "auto",
+                            marginRight: "auto",
+                            display: "block",
+                        }}
+                        src={props.project.img}
+                        placeholder={
+                            <Image
+                                preview={false}
+                                src={props.project.img_low}
+                            />
+                        }
+                    />
+                }
+                actions={[
+                    <>
                         {props.project.repoUrl !== "" ? (
                             <Link
                                 name="Repository"
@@ -37,6 +43,8 @@ function Project(props) {
                         ) : (
                             ""
                         )}
+                    </>,
+                    <>
                         {props.project.deployUrl !== "" ? (
                             <Link
                                 name="Project Link"
@@ -45,41 +53,27 @@ function Project(props) {
                         ) : (
                             ""
                         )}
-                    </div>
-                </div>
-            </div>
+                    </>,
+                ]}
+            >
+                <Meta
+                    title={<Title level={3}>{props.project.name}</Title>}
+                    description={
+                        <>
+                            <p className="mb-4">
+                                <i
+                                    className="fas fa-calendar-day"
+                                    aria-hidden="true"
+                                ></i>{" "}
+                                &nbsp;
+                                {props.project.date}
+                            </p>
+                            <Text>{props.project.description}</Text>
+                        </>
+                    }
+                />
+            </Card>
         </div>
-
-        // <div className="col">
-        //     <div className="card">
-        //         <img
-        //             src={props.project.img}
-        //             className="card-img-top"
-        //             alt="project"
-        //             loading="lazy"
-        //         />
-        //         <div className="card-body">
-        //             <h5 className="card-title text-center">
-        //                 {props.project.name}
-        //             </h5>
-        //         </div>
-        //         <div className="card-footer d-flex justify-content-evenly">
-        //             {props.project.repoUrl !== "" ? (
-        //                 <Link name="Repository" url={props.project.repoUrl} />
-        //             ) : (
-        //                 ""
-        //             )}
-        //             {props.project.deployUrl !== "" ? (
-        //                 <Link
-        //                     name="Project Link"
-        //                     url={props.project.deployUrl}
-        //                 />
-        //             ) : (
-        //                 ""
-        //             )}
-        //         </div>
-        //     </div>
-        // </div>
     );
 }
 
