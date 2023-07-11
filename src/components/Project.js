@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Project.css";
 import Link from "./Link";
-import { Image, Space, Card, Typography } from "antd";
+import { Image, Card, Typography } from "antd";
 const { Title, Text } = Typography;
 const { Meta } = Card;
 
@@ -13,8 +13,11 @@ function Project(props) {
             }
         >
             <Card
-                className="card"
-                style={{ borderRadius: "32px", overflow: "hidden" }}
+                style={{
+                    borderRadius: "32px",
+                    overflow: "hidden",
+                    boxShadow: "rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",
+                }}
                 cover={
                     <Image
                         preview={false}
