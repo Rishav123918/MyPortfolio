@@ -10,7 +10,7 @@ function Experience(props) {
     if (showMore) {
         experience = props.experience;
     } else {
-        experience = props.experience.slice(0, 6);
+        experience = props.experience.slice(0, 3);
     }
 
     const handlePageChange = (e) => {
@@ -55,7 +55,7 @@ function Experience(props) {
                         </>
                     ) : (
                         <>
-                            <i className="fas fa-plus"></i>&nbsp;&nbsp;Show More
+                            <i className="fas fa-plus"></i>&nbsp;&nbsp;Show All
                         </>
                     )}
                 </button>

@@ -10,7 +10,7 @@ function Projects(props) {
     if (showMore) {
         projects = props.projects;
     } else {
-        projects = props.projects.slice(0, 6);
+        projects = props.projects.slice(0, 3);
     }
 
     const handlePageChange = (e) => {
@@ -55,7 +55,7 @@ function Projects(props) {
                         </>
                     ) : (
                         <>
-                            <i className="fas fa-plus"></i>&nbsp;&nbsp;Show More
+                            <i className="fas fa-plus"></i>&nbsp;&nbsp;Show All
                         </>
                     )}
                 </button>
