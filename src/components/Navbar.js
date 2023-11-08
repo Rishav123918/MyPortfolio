@@ -58,10 +58,22 @@ function Navbar(props) {
                                     ? "active"
                                     : "nav-link"
                             }
+                            href="#experience"
+                            onClick={handlePageChange}
+                        >
+                            Experience
+                        </a>
+                        <a
+                            name="Projects"
+                            className={
+                                props.page === "Projects"
+                                    ? "active"
+                                    : "nav-link"
+                            }
                             href="#projects"
                             onClick={handlePageChange}
                         >
-                            Portfolio
+                            Projects
                         </a>
                         <a
                             name="Resume"

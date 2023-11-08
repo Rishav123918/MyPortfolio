@@ -2,19 +2,19 @@ import React, { useState } from "react";
 import Project from "../components/Project";
 import "../styles/Projects.css";
 
-function Projects(props) {
+function Experience(props) {
     const [showMore, setShowMore] = useState("");
 
-    let projects = props.projects;
+    let experience = props.experience;
 
     if (showMore) {
-        projects = props.projects;
+        experience = props.experience;
     } else {
-        projects = props.projects.slice(0, 6);
+        experience = props.experience.slice(0, 6);
     }
 
     const handlePageChange = (e) => {
-        props.setPage("Projects");
+        props.setPage("Portfolio");
     };
 
     const handleButtonChange = (e) => {
@@ -27,18 +27,18 @@ function Projects(props) {
 
     return (
         <section
-            id="projects"
+            id="experience"
             className="scroll-snap"
             onMouseEnter={handlePageChange}
         >
             <header className="section-header ms-3 mb-3">
-                <h2>Projects</h2>
+                <h2>Experience</h2>
             </header>
             {/*  */}
 
             <div className="container py-5">
                 <div className="main-timeline">
-                    {projects.map((project, index) => (
+                    {experience.map((project, index) => (
                         <Project key={index} project={project} index={index} />
                     ))}
                 </div>
@@ -64,4 +64,4 @@ function Projects(props) {
     );
 }
 
-export default Projects;
+export default Experience;
