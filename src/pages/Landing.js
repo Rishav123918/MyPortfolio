@@ -24,7 +24,7 @@ function Landing(props) {
                     wrapper="h1"
                     repeat={6}
                 />
-                <h5>Software Developer</h5>
+                <h5>Software Engineer</h5>
                 <Footer />
             </div>
         </div>

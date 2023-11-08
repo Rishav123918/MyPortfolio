@@ -59,7 +59,7 @@ const projects = [
     {
         name: "Full-Stack Developer @ Mr. Sushi",
         description: `I developed an ordering system for tabletop kiosks and QR scans, that included an invoice tracking feature. This system improved the overall efficiency of restaurants by 30% by allowing customers to place their orders from their mobile devices. The focus was on mobile-first design to ensure a seamless experience for customers across all device sizes. This way, customers could easily place their order at the restaurant, therefore allowing the servers to allocate more time for other tasks, and the restaurant could easily track the customer's orders and invoices.`,
-        date: "December 2021 - December 2022",
+        date: "November 2021 - October 2022",
         repoUrl: "",
         deployUrl: "",
         img: mrSushiLogo,
