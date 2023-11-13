@@ -1,6 +1,6 @@
 import React from "react";
 import Footer from "../components/Footer";
-import "../styles/AboutMe.css";
+
 
 function AboutMe(props) {
     const handlePageChange = (e) => {
