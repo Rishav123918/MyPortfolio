@@ -18,48 +18,35 @@ function AboutMe(props) {
             </header>
             <div className="section-body ms-3 mb-3">
                 <p>
-                    Hello! I'm Jimmy Zheng, a passionate software engineer with
-                    a focus on creating innovative solutions that drive user
-                    engagement and improve overall system performance. With a
-                    strong background in full-stack development and a knack for
-                    problem-solving, I strive to deliver high-quality products
-                    that exceed user expectations.
+                  Hello, I am Rishav Kumar Jain hailing from Odisha. My intermediate
+                  education took place in Odisha, and I concluded my undergraduate studies
+                   in Chhattisgarh. At present, I am pursuing MCA at NIT Jamshedpur.
                 </p>
                 <p>
-                    During my time at Medici, I developed an NFT generator using
-                    TypeScript, allowing users to create and customize thousands
-                    of tokens simultaneously. By collaborating closely with the
-                    design team, I ensured a visually appealing and
-                    user-friendly UI, resulting in a remarkable 35% boost in
-                    user engagement. I also integrated web3 functionality,
-                    enabling seamless wallet connection and artwork minting.
+                  Throughout my educational journey, I have cultivated a robust 
+                  technical skill set, encompassing programming languages such as
+                  C, C++, and JavaScript. Additionally, I have delved into various
+                  web technologies, including React.js, Node.js, Express, and databases 
+                  like MySQL, MongoDB, and Firebase.
                 </p>
                 <p>
-                    As a Software Engineer and Mentor at SCALE Pathways, I
-                    improved front-end usability by implementing React and Ant
-                    Design, leading to a significant 20% increase in user
-                    engagement. By leveraging technologies such as Node.js and
-                    Express.js, I enhanced overall performance and
-                    functionality, reducing the average response time by 30%.
-                    Additionally, I mentored senior design students, providing
-                    guidance and support in their development.
+                 I have accomplished two significant projects. The initial project involved 
+                 creating a Hotel Booking System using the MERN stack. In this endeavor,
+                 I placed considerable emphasis on the security system, employing MongoDB 
+                 for data storage, and utilized Express on the backend for server-side operations.
                 </p>
                 <p>
-                    At Mr. Sushi, I created an efficient ordering system for
-                    tabletop kiosks and QR scans, resulting in a 30% increase in
-                    restaurant efficiency. By collaborating closely with
-                    restaurant staff, I optimized the system based on
-                    operational requirements, achieving a seamless adoption rate
-                    of 95% among the staff.
+                  The second project revolves around a Real-Time Chat Application, crafted using React.js and Firebase. 
                 </p>
+
                 <p>
-                    With a Certificate in Full-Stack Development from the
-                    University of Washington and a Bachelor's degree in Computer
-                    Science <i>(magna cum laude)</i> from Washington State
-                    University, I bring a solid foundation and a drive for
-                    excellence to every project I undertake. I'm also the proud
-                    recipient of awards such as the STARS Scholarship, EECS
-                    Scholarship, and 3rd Place in Senior Design Competition.
+                   In addition to these, I have successfully implemented a custom k-nearest neighbors algorithm 
+                   in Python for the "Finding k-Nearest-Neighbors" project, showcasing my proficiency in machine learning and Python.   
+                </p>
+                
+                <p>
+                Beyond my academic and technical proficiency, I harbor a keen interest in problem-solving, gaming, music, and 
+                aspects of spirituality and divinity. During my graduation, I actively participated in event management.
                 </p>
                 <p>
                     Please take a look at my React Portfolio to explore some of

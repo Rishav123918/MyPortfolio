@@ -51,11 +51,11 @@ function Form() {
     };
 
     const handleFormSubmit = (e) => {
-        // Preventing the default behavior of the form submit (which is to refresh the page)
+        
         e.preventDefault();
 
         let error = false;
-        // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
+       
         if (!validateText(name)) {
             setErrorName(`Please enter a name.`);
             error = true;
@@ -78,7 +78,7 @@ function Form() {
         }
 
         window.open(
-            `mailto:jimmyz0622@gmail.com?subject=${name}&body=${message} %0d%0a%0d%0aName: ${name} %0d%0aEmail: ${email}`
+            `mailto:rishavkumarjain2000@gmail.com?subject=${name}&body=${message} %0d%0a%0d%0aName: ${name} %0d%0aEmail: ${email}`
         );
         setName("");
         setEmail("");

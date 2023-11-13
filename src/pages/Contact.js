@@ -20,7 +20,7 @@ function Contact(props) {
             <div className="section-body contact mt-auto">
                 <a
                     className="contact-info"
-                    href="tel:425-350-1868"
+                    href="tel:9692053101"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -28,7 +28,7 @@ function Contact(props) {
                 </a>
                 <a
                     className="contact-info"
-                    href="mailto:jimmyz0622@gmail.com"
+                    href="mailto:rishavkumarjain2000@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -36,7 +36,7 @@ function Contact(props) {
                 </a>
                 <a
                     className="contact-info"
-                    href="https://www.linkedin.com/in/jimmy-zheng/"
+                    href="https://www.linkedin.com/in/rishav-jain-39144b221/"
                     target="_blank"
                     rel="noreferrer"
                 >
@@ -44,19 +44,11 @@ function Contact(props) {
                 </a>
                 <a
                     className="contact-info"
-                    href="https://github.com/ByteSizeError"
+                    href="https://github.com/Rishav123918"
                     target="_blank"
                     rel="noreferrer"
                 >
                     <i className="fab fa-github fa-2x"></i>
-                </a>
-                <a
-                    className="contact-info"
-                    href="https://stackoverflow.com/users/16476386/bytesizeerror"
-                    target="_blank"
-                    rel="noreferrer"
-                >
-                    <i className="fab fa-stack-overflow fa-2x"></i>
                 </a>
             </div>
         </section>

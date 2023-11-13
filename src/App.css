@@ -13,7 +13,6 @@ section {
     flex-basis: 100%;
     height: 100vh;
     overflow-y: scroll;
-    /* -ms-scroll-snap-type: y mandatory; */
     scroll-snap-type: y mandatory;
 }
 

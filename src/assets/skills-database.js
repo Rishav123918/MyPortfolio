@@ -1,9 +1,5 @@
 const skills = [
     {
-        name: "GraphQL",
-        icon: <i className="devicon-graphql-plain colored"></i>,
-    },
-    {
         name: "MySQL",
         icon: <i className="devicon-mysql-plain colored"></i>,
     },
@@ -12,9 +8,10 @@ const skills = [
         icon: <i className="devicon-mongodb-plain colored"></i>,
     },
     {
-        name: "PostgreSQL",
-        icon: <i className="devicon-postgresql-plain colored"></i>,
-    },
+        name: "Firebase",
+        icon: <i className="devicon-firebase-plain colored"></i>,
+    }
+    
 ];
 
 export default skills;

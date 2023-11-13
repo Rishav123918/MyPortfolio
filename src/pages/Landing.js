@@ -2,7 +2,7 @@ import React from "react";
 import Footer from "../components/Footer";
 import "../styles/Landing.css";
 import logo from "../assets/images/sitelogo.png";
-import TypeAnimation from "react-type-animation";
+
 
 function Landing(props) {
     const handlePageChange = (e) => {
@@ -18,13 +18,8 @@ function Landing(props) {
             <div className="center">
                 <img src={logo} alt="avatar" className="photo mb-2" />
 
-                <TypeAnimation
-                    cursor={true}
-                    sequence={["", 500, "Jimmy Zheng", 2000]}
-                    wrapper="h1"
-                    repeat={6}
-                />
-                <h5>Software Engineer</h5>
+                 
+                <h5>Full Stack Developer & Programmer</h5>
                 <Footer />
             </div>
         </div>

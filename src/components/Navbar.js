@@ -21,7 +21,7 @@ function Navbar(props) {
                         height="40"
                         className="d-inline-block"
                     />
-                    &nbsp;&nbsp;Jimmy Zheng
+                    &nbsp;&nbsp;Rishav Kumar Jain
                 </a>
                 <button
                     className="navbar-toggler"
@@ -51,18 +51,7 @@ function Navbar(props) {
                         >
                             About Me
                         </a>
-                        <a
-                            name="Portfolio"
-                            className={
-                                props.page === "Portfolio"
-                                    ? "active"
-                                    : "nav-link"
-                            }
-                            href="#experience"
-                            onClick={handlePageChange}
-                        >
-                            Experience
-                        </a>
+
                         <a
                             name="Projects"
                             className={

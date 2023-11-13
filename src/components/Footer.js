@@ -6,7 +6,7 @@ function Footer() {
         <div className="footer ms-2 mb-2 me-2">
             <a
                 className="contact-info"
-                href="https://www.linkedin.com/in/jimmy-zheng/"
+                href="https://www.linkedin.com/in/rishav-jain-39144b221/"
                 target="_blank"
                 rel="noreferrer"
             >
@@ -14,19 +14,11 @@ function Footer() {
             </a>
             <a
                 className="contact-info"
-                href="https://github.com/ByteSizeError"
+                href="https://github.com/Rishav123918"
                 target="_blank"
                 rel="noreferrer"
             >
                 <i className="fab fa-github fa-2x"></i>
-            </a>
-            <a
-                className="contact-info"
-                href="https://stackoverflow.com/users/16476386/bytesizeerror"
-                target="_blank"
-                rel="noreferrer"
-            >
-                <i className="fab fa-stack-overflow fa-2x"></i>
             </a>
         </div>
     );

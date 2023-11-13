@@ -3,12 +3,12 @@ import "./App.css";
 import Landing from "./pages/Landing";
 import Navbar from "./components/Navbar";
 import AboutMe from "./pages/AboutMe";
-import Experience from "./pages/Experience";
+
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 
-import experience from "./assets/experience.js";
+
 import projects from "./assets/projects.js";
 import skills from "./assets/skills.js";
 import language from "./assets/skills-language.js";
@@ -23,7 +23,6 @@ function App() {
             <Landing setPage={setPage} />
             <Navbar setPage={setPage} page={page} />
             <AboutMe setPage={setPage} />
-            <Experience setPage={setPage} experience={experience} />
             <Projects setPage={setPage} projects={projects} />
             <Resume
                 setPage={setPage}

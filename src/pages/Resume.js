@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/Footer";
 import Skill from "../components/Skill";
-import resume from "../assets/Jimmy-Zheng-Resume.pdf";
+import resume from "../assets/Rishav-jain-.pdf";
 
 function Resume(props) {
     const handlePageChange = (e) => {
@@ -64,13 +64,6 @@ function Resume(props) {
                 <h4 className="mt-3">Tools</h4>
                 <div className="row justify-content-space-between">
                     {props.tool.map((skill, index) => (
-                        <Skill key={index} skill={skill} />
-                    ))}
-                </div>
-
-                <h4 className="mt-3">All Skills</h4>
-                <div className="row justify-content-space-between">
-                    {props.skills.map((skill, index) => (
                         <Skill key={index} skill={skill} />
                     ))}
                 </div>

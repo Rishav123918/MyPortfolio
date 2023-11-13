@@ -8,12 +8,8 @@ const skills = [
         icon: <i className="devicon-html5-plain colored"></i>,
     },
     {
-        name: "CSS3",
+        name: "CSS",
         icon: <i className="devicon-css3-plain colored"></i>,
-    },
-    {
-        name: "Swift",
-        icon: <i className="devicon-swift-plain colored"></i>,
     },
     {
         name: "C",
@@ -24,9 +20,10 @@ const skills = [
         icon: <i className="devicon-cplusplus-plain colored"></i>,
     },
     {
-        name: "Python",
-        icon: <i className="devicon-python-plain colored"></i>,
-    },
+        name: "Java",
+        icon: <i className="devicon-java-plain colored"></i>,
+    }
+    
 ];
 
 export default skills;
